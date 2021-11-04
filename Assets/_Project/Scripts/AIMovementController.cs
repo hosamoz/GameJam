@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AIMovementController : MonoBehaviour
+public partial class AIMovementController : MonoBehaviour
 {
     [SerializeField] private Raycaster raycastGround;
     [SerializeField] private List<Raycaster> raycastsKill;
@@ -10,13 +10,15 @@ public class AIMovementController : MonoBehaviour
     [SerializeField] private float speed;
     [SerializeField] private float waitingTime;
     [SerializeField] private Animator animator;
+    [SerializeField] private DeathEvent OnKill;
 
     private bool _grounded;
     private bool _waiting;
+    private bool _killed;
     private Vector2 movement;
     private Vector2 left;
     private Vector2 right;
-    private object _killed;
+    
 
     private void Start()
     {
@@ -68,14 +70,25 @@ public class AIMovementController : MonoBehaviour
         {
             foreach (Raycaster raycastKill in raycastsKill)
             {
-                _killed = raycastKill.Cast(right);
+                if (_killed != true)
+                {
+                    _killed = raycastKill.Cast(right);
+                }
             }
         }   
         else
         {
             foreach (Raycaster raycastKill in raycastsKill)
             {
-                _killed = raycastKill.Cast(left);
+                if(_killed != true)
+                {
+                    _killed = raycastKill.Cast(left);
+                }   
+            }
+
+            if(_killed == true)
+            {
+                OnKill?.Invoke();
             }
         }
     }

@@ -1,4 +1,5 @@
-﻿using System.Runtime.CompilerServices;
+﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class MovementController : MonoBehaviour
@@ -83,6 +84,11 @@ public class MovementController : MonoBehaviour
    
         else
             anim.SetBool("isRun", false);
+    }
+
+    public void Death()
+    {
+        anim.SetBool("die", true);
     }
         
 }
