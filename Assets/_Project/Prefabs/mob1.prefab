@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7797566690919059207}
   - component: {fileID: 7797566690919059204}
   - component: {fileID: 7797566690919059205}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97,7 +97,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.12859464, y: 5.1180344}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.61, y: 0.23}
@@ -108,7 +108,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 10.104443, y: 11.236069}
   m_EdgeRadius: 0
 --- !u!95 &7797566690919059205
 Animator:
@@ -140,7 +140,6 @@ GameObject:
   - component: {fileID: 7797566691786762235}
   - component: {fileID: 7797566691786762228}
   - component: {fileID: 7797566691786762229}
-  - component: {fileID: 7797566691786762230}
   - component: {fileID: 1275900212}
   m_Layer: 0
   m_Name: mob1
@@ -184,7 +183,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &7797566691786762229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -197,30 +196,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc201de6510cea143863bc7fedf7c6b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  raycastGround: {fileID: 7797566691786762230}
-  raycastKill: {fileID: 1275900212}
+  raycastGround: {fileID: 0}
+  raycastsKill: []
   body: {fileID: 7797566691786762228}
   speed: 1
   waitingTime: 1
   animator: {fileID: 7797566690919059205}
---- !u!114 &7797566691786762230
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7797566691786762231}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4546514039a249145be57e6313b8a435, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  layerMask:
-    serializedVersion: 2
-    m_Bits: 64
-  offset: {x: 0, y: 0}
-  direction: {x: 0, y: -1}
-  maxDistance: 0.2
 --- !u!114 &1275900212
 MonoBehaviour:
   m_ObjectHideFlags: 0
