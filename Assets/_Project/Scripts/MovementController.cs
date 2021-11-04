@@ -73,7 +73,16 @@ public class MovementController : MonoBehaviour
         else
         {
             _direction = new Vector2(Input.GetAxisRaw("Horizontal"),  0);
-        }   
+        }
+        if (_direction.x != 0)
+        {
+            anim.SetBool("isRun", true);
+        }
+        else
+        {
+            anim.SetBool("isRun", false);
+        }
+            
         
     }
         
