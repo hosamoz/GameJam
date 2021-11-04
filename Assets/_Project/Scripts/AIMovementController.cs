@@ -8,6 +8,7 @@ public class AIMovementController : MonoBehaviour
     [SerializeField] private Rigidbody2D body;
     [SerializeField] private float speed;
     [SerializeField] private float waitingTime;
+    [SerializeField] private Animator animator;
 
     private bool _grounded;
     private bool _waiting;
@@ -45,6 +46,7 @@ public class AIMovementController : MonoBehaviour
     {
         _waiting = true;
         movement = -movement;
+        animator.SetFloat("actualSpeed", -movement.x);
         yield return new WaitForSeconds(waitingTime);
         _waiting = false;
     }
@@ -52,9 +54,5 @@ public class AIMovementController : MonoBehaviour
     private void IsGrounded()
     {
         _grounded = raycast.TouchGround();
-        if(_grounded)
-        {
-            Debug.Log("Grounded");
-        }
     }
 }
