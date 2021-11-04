@@ -64,7 +64,6 @@ public class MovementController : MonoBehaviour
     }
     private void Move()
     {
-        Debug.Log(_grounded);
         if (_grounded)
         {
             _direction = new Vector2(Input.GetAxisRaw("Horizontal"),  Input.GetAxisRaw("Vertical"));
