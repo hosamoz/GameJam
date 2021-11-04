@@ -70,26 +70,25 @@ public partial class AIMovementController : MonoBehaviour
         {
             foreach (Raycaster raycastKill in raycastsKill)
             {
-                if (_killed != true)
-                {
-                    _killed = raycastKill.Cast(right);
-                }
+                _killed = raycastKill.Cast(right);
+                Kill();
             }
         }   
         else
         {
             foreach (Raycaster raycastKill in raycastsKill)
             {
-                if(_killed != true)
-                {
-                    _killed = raycastKill.Cast(left);
-                }   
+                _killed = raycastKill.Cast(left);
+                Kill();
             }
+        }
+    }
 
-            if(_killed == true)
-            {
-                OnKill?.Invoke();
-            }
+    private void Kill()
+    {
+        if (_killed)
+        {
+            OnKill?.Invoke();
         }
     }
 }

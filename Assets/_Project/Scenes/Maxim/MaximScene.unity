@@ -412,14 +412,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 23412536, guid: 3e351dd5e88a558489deec52dbb55539, type: 3}
-      propertyPath: maxDistance
-      value: 2.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 23412537, guid: 3e351dd5e88a558489deec52dbb55539, type: 3}
-      propertyPath: maxDistance
-      value: 2.5
-      objectReference: {fileID: 0}
     - target: {fileID: 1854009039404255608, guid: 3e351dd5e88a558489deec52dbb55539, type: 3}
       propertyPath: OnKill.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 

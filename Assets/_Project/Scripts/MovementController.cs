@@ -12,9 +12,10 @@ public class MovementController : MonoBehaviour
 
     private bool _isHiding = false;
     private bool _canHide;
-    private bool _grounded ;
+    private bool _grounded;
+    private bool _dead;
     private Vector2 _direction;
-    
+
     void Update()
     {
         IsGrounded();
@@ -99,7 +100,15 @@ public class MovementController : MonoBehaviour
 
     public void Death()
     {
-        anim.SetBool("die", true);
+        if(!_dead)
+        {
+            if (!_isHiding)
+            {
+                _dead = true;
+                anim.SetBool("die", true);
+            }      
+        }
+        
     }
         
 }
