@@ -1187,7 +1187,7 @@ GameObject:
   - component: {fileID: 976914229}
   - component: {fileID: 976914230}
   m_Layer: 7
-  m_Name: Skeletal
+  m_Name: Alice
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
