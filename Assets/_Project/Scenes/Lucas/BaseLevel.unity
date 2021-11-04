@@ -3797,7 +3797,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 477278497}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 13, y: -1.0169142, z: 0}
+  m_LocalPosition: {x: 11.8, y: -1.0169142, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1739532705}
@@ -4362,7 +4362,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 992976878}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 14.9, y: -1.0169142, z: 0}
+  m_LocalPosition: {x: 14.1, y: -1.0169142, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1739532705}
@@ -7000,7 +7000,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1808759750}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.164486, y: -1.0538828, z: 0}
+  m_LocalPosition: {x: 9.67, y: -1.0538828, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1739532705}
@@ -7135,8 +7135,8 @@ MonoBehaviour:
   raycastGround: {fileID: 1811714652}
   raycastsKill: []
   body: {fileID: 1811714654}
-  speed: 15
-  waitingTime: 1
+  speed: 10
+  waitingTime: 1.5
   animator: {fileID: 542240948}
 --- !u!50 &1811714654
 Rigidbody2D:
@@ -7167,7 +7167,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1811714651}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 48.2, y: -11.7, z: -2.4613767}
+  m_LocalPosition: {x: 47.3, y: -11.7, z: -2.4613767}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 542240951}
