@@ -67,23 +67,22 @@ public class MovementController : MonoBehaviour
     private void Move()
     {
         if (_grounded)
-        {
             _direction = new Vector2(Input.GetAxisRaw("Horizontal"),  Input.GetAxisRaw("Vertical"));
-        }
-        else
-        {
+        else 
             _direction = new Vector2(Input.GetAxisRaw("Horizontal"),  0);
-        }
+        
         if (_direction.x != 0)
         {
+            if (_direction.x < 0)
+                transform.localScale = new Vector3(-1,transform.localScale.y,1);
+            else 
+                transform.localScale = new Vector3(1,transform.localScale.y,1);
+            
             anim.SetBool("isRun", true);
         }
+   
         else
-        {
             anim.SetBool("isRun", false);
-        }
-            
-        
     }
         
 }
