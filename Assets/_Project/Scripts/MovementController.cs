@@ -77,12 +77,12 @@ public class MovementController : MonoBehaviour
 
         var x = _direction.x;
 
-        if (x != 0)
+        if (x != 0 && _grounded)
         {
             anim.SetBool("isRun", true);
             if (x > 0)
             {
-                anim.Play("Run", -1, float.NegativeInfinity);
+                anim.Play("Run", -1);
             }
             else
             {
