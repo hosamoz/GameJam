@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Runtime.CompilerServices;
+using UnityEngine;
 
 public class MovementController : MonoBehaviour
 {
@@ -15,7 +16,6 @@ public class MovementController : MonoBehaviour
     
     void Update()
     {
-        
         IsGrounded();
         Move();
         Hiding();
@@ -61,7 +61,7 @@ public class MovementController : MonoBehaviour
 
     private void IsGrounded()
     {
-        _grounded = raycaster.TouchGround();
+        _grounded = raycaster.Cast();
         anim.SetBool("isJump",!_grounded);
     }
     private void Move()
