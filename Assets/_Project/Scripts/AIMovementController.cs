@@ -37,7 +37,7 @@ public class AIMovementController : MonoBehaviour
             {
                 movement.x = speed;
             }
-
+            animator.SetFloat("actualSpeed", -movement.x);
             body.velocity = movement;
         }
     }
@@ -46,7 +46,6 @@ public class AIMovementController : MonoBehaviour
     {
         _waiting = true;
         movement = -movement;
-        animator.SetFloat("actualSpeed", -movement.x);
         yield return new WaitForSeconds(waitingTime);
         _waiting = false;
     }
