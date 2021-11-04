@@ -1182,9 +1182,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1056852145013370031}
   - component: {fileID: 6432162201642242781}
-  - component: {fileID: 989703670604523456}
-  - component: {fileID: 989703670604523454}
-  - component: {fileID: 989703670604523459}
   - component: {fileID: 976914232}
   - component: {fileID: 976914231}
   - component: {fileID: 976914229}
@@ -1223,66 +1220,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc44b118a6564624585e19912cfb6904, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!61 &989703670604523456
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6124758397629526436}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.051674843, y: 2.0420864}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.1952171, y: 4.192227}
-  m_EdgeRadius: 0
---- !u!114 &989703670604523454
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6124758397629526436}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7531dd7750ac4396997b7554eeb43a93, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
-  model: {fileID: 26920683843387441}
-  body: {fileID: 989703670604523455, guid: 5b02b8361d684aa47aea9a0d36affd16, type: 3}
-  raycaster: {fileID: 989703670604523459}
---- !u!114 &989703670604523459
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6124758397629526436}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4546514039a249145be57e6313b8a435, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  layerMask:
-    serializedVersion: 2
-    m_Bits: 64
-  offset: {x: 0, y: 0}
-  direction: {x: 0, y: -1}
-  maxDistance: 0.1
 --- !u!50 &976914232
 Rigidbody2D:
   serializedVersion: 4
