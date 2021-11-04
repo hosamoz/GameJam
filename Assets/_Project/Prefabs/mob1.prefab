@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7797566690919059207}
   - component: {fileID: 7797566690919059204}
   - component: {fileID: 7797566690919059205}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -141,7 +141,8 @@ GameObject:
   - component: {fileID: 7797566691786762228}
   - component: {fileID: 7797566691786762229}
   - component: {fileID: 7797566691786762230}
-  m_Layer: 10
+  - component: {fileID: 1275900212}
+  m_Layer: 0
   m_Name: mob1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -196,7 +197,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc201de6510cea143863bc7fedf7c6b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  raycast: {fileID: 7797566691786762230}
+  raycastGround: {fileID: 7797566691786762230}
+  raycastKill: {fileID: 1275900212}
   body: {fileID: 7797566691786762228}
   speed: 1
   waitingTime: 1
@@ -218,4 +220,22 @@ MonoBehaviour:
     m_Bits: 64
   offset: {x: 0, y: 0}
   direction: {x: 0, y: -1}
-  maxDistance: 0.1
+  maxDistance: 0.2
+--- !u!114 &1275900212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7797566691786762231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4546514039a249145be57e6313b8a435, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 128
+  offset: {x: 0, y: 1}
+  direction: {x: 0, y: 0}
+  maxDistance: 5

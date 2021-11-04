@@ -1186,7 +1186,11 @@ GameObject:
   - component: {fileID: 976914229}
   - component: {fileID: 976914230}
   m_Layer: 7
+<<<<<<< HEAD:Assets/_Project/Prefabs/ancienne alice.prefab
   m_Name: ancienne alice
+=======
+  m_Name: Alice
+>>>>>>> 374cde1efa09430ad26d453f952580ede5608c99:Assets/_Project/Prefabs/Alice.prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
