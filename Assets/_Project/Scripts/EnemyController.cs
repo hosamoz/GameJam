@@ -9,12 +9,12 @@ public class EnemyController : MonoBehaviour
     [SerializeField] private Vector3 direction;
     [SerializeField] private float maxDistance;
 
-    void Update()
-    {
-        var ray = new Ray(transform.position + offset, direction);
-        Debug.DrawRay(ray.origin, ray.direction.normalized*maxDistance, Color.red);
-        Physics.Raycast(ray, maxDistance, layerMask);
-    }
+    // void Update()
+    // {
+    //     var ray = new Ray(transform.position + offset, direction);
+    //     Debug.DrawRay(ray.origin, ray.direction.normalized*maxDistance, Color.red);
+    //     return Physics.Raycast(ray, maxDistance, layerMask,);
+    // }
   
     
 }

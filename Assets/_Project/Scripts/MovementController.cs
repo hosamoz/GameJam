@@ -6,15 +6,16 @@ public class MovementController : MonoBehaviour
     [SerializeField] private GameObject model;
     [SerializeField] private Rigidbody2D body;
     [SerializeField] private Raycaster raycaster;
+    [SerializeField] private Animator anim;
+
     private bool _isHiding = false;
     private bool _canHide;
     private bool _grounded ;
-
     private Vector2 _direction;
     
-    // Update is called once per frame
     void Update()
     {
+        
         IsGrounded();
         Move();
         Hiding();
@@ -61,6 +62,7 @@ public class MovementController : MonoBehaviour
     private void IsGrounded()
     {
         _grounded = raycaster.TouchGround();
+        anim.SetBool("isJump",!_grounded);
     }
     private void Move()
     {

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7797566690919059207}
   - component: {fileID: 7797566690919059204}
   - component: {fileID: 7797566690919059205}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -141,13 +141,13 @@ GameObject:
   - component: {fileID: 7797566691786762228}
   - component: {fileID: 7797566691786762229}
   - component: {fileID: 7797566691786762230}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: mob1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &7797566691786762235
 Transform:
   m_ObjectHideFlags: 0
