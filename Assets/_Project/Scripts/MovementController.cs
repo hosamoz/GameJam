@@ -66,23 +66,34 @@ public class MovementController : MonoBehaviour
     }
     private void Move()
     {
+        var directionX = _direction.x;
         if (_grounded)
-            _direction = new Vector2(Input.GetAxisRaw("Horizontal"),  Input.GetAxisRaw("Vertical"));
-        else 
-            _direction = new Vector2(Input.GetAxisRaw("Horizontal"),  0);
-        
-        if (_direction.x != 0)
         {
-            if (_direction.x < 0)
-                transform.localScale = new Vector3(-1,transform.localScale.y,1);
-            else 
-                transform.localScale = new Vector3(1,transform.localScale.y,1);
+            _direction = new Vector2(Input.GetAxisRaw("Horizontal"),  Input.GetAxisRaw("Vertical"));
+            if(directionX == 0) anim.SetBool("isRun", false);
+            else
+            {
+                if (directionX < 0)
+                    transform.localScale = new Vector3(-1,transform.localScale.y,1);
+                else 
+                    transform.localScale = new Vector3(1,transform.localScale.y,1);
             
-            anim.SetBool("isRun", true);
+                anim.SetBool("isRun", true);
+            }
         }
-   
         else
-            anim.SetBool("isRun", false);
+        {
+            _direction = new Vector2(Input.GetAxisRaw("Horizontal"),  0);
+            if (directionX != 0)
+            {
+                if (directionX < 0)
+                    transform.localScale = new Vector3(-1,transform.localScale.y,1);
+                else 
+                    transform.localScale = new Vector3(1,transform.localScale.y,1);
+            
+                anim.SetBool("isRun", false);  
+            }
+        }
     }
         
 }
