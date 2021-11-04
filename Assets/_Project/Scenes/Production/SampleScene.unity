@@ -368,7 +368,7 @@ MonoBehaviour:
     m_Bits: 64
   offset: {x: 0, y: 0}
   direction: {x: 0, y: -1}
-  maxDistance: 0.1
+  maxDistance: 0.2
 --- !u!114 &131700348
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5153,7 +5153,7 @@ Transform:
   m_GameObject: {fileID: 1747951540}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 1}
+  m_LocalScale: {x: 0.25, y: 0.25, z: 1}
   m_Children: []
   m_Father: {fileID: 131700350}
   m_RootOrder: 0
