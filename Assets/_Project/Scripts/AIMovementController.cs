@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AIMovementController : MonoBehaviour
 {
-    [SerializeField] private AIRaycaster raycast;
+    [SerializeField] private Raycaster raycast;
     [SerializeField] private Rigidbody2D body;
     [SerializeField] private float speed;
     [SerializeField] private float waitingTime;

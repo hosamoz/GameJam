@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class AIRaycaster : MonoBehaviour
+public class Raycaster : MonoBehaviour
 {
     [SerializeField] private LayerMask layerMask;
     [SerializeField] private Vector2 offset;
