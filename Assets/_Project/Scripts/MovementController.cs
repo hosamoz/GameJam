@@ -61,7 +61,7 @@ public class MovementController : MonoBehaviour
 
     private void IsGrounded()
     {
-        _grounded = raycaster.TouchGround();
+        _grounded = raycaster.Cast();
         anim.SetBool("isJump",!_grounded);
     }
     private void Move()
