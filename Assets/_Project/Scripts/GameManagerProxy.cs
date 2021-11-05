@@ -19,10 +19,14 @@ public class GameManagerProxy : MonoBehaviour, IGameManager
 
     public void NextUI(string nextScene)
     {
-        if (nextScene == "Main UI") {
+        if (nextScene == "Main UI")
+        {
             ScoreManager.instance.Appear();
         }
-        GameManager.instance.NextUI(nextScene);
+        else { 
+            GameManager.instance.NextUI(nextScene);
+        }
+        
     }
 
     public void ReloadScene() 
