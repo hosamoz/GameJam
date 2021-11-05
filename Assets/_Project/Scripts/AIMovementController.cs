@@ -88,6 +88,7 @@ public partial class AIMovementController : MonoBehaviour
     {
         if (_killed)
         {
+            AudioManager.instance.screamSFX();
             OnKill?.Invoke();
         }
     }
