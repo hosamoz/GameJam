@@ -196,34 +196,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1088919872927511461, guid: f06b007e539b41d4a8e3bb28c42f2b2d, type: 3}
-      propertyPath: screamClips.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1088919872927511461, guid: f06b007e539b41d4a8e3bb28c42f2b2d, type: 3}
-      propertyPath: screamClips.Array.data[0]
-      value: 
-      objectReference: {fileID: 8300000, guid: f0c61283b187e95419ad27abfcf15dd4, type: 3}
-    - target: {fileID: 1088919872927511461, guid: f06b007e539b41d4a8e3bb28c42f2b2d, type: 3}
-      propertyPath: screamClips.Array.data[1]
-      value: 
-      objectReference: {fileID: 8300000, guid: 4376f6b8fcff11544abca6dfcfd60d99, type: 3}
-    - target: {fileID: 1088919872927511461, guid: f06b007e539b41d4a8e3bb28c42f2b2d, type: 3}
-      propertyPath: screamClips.Array.data[2]
-      value: 
-      objectReference: {fileID: 8300000, guid: 85b08cf3339bcaf4b95e25408b7bff01, type: 3}
-    - target: {fileID: 1088919872927511461, guid: f06b007e539b41d4a8e3bb28c42f2b2d, type: 3}
-      propertyPath: screamClips.Array.data[3]
-      value: 
-      objectReference: {fileID: 8300000, guid: 85b08cf3339bcaf4b95e25408b7bff01, type: 3}
-    - target: {fileID: 1088919872927511461, guid: f06b007e539b41d4a8e3bb28c42f2b2d, type: 3}
-      propertyPath: screamClips.Array.data[4]
-      value: 
-      objectReference: {fileID: 8300000, guid: 85b08cf3339bcaf4b95e25408b7bff01, type: 3}
-    - target: {fileID: 1088919872927511461, guid: f06b007e539b41d4a8e3bb28c42f2b2d, type: 3}
-      propertyPath: screamClips.Array.data[5]
-      value: 
-      objectReference: {fileID: 8300000, guid: 85b08cf3339bcaf4b95e25408b7bff01, type: 3}
     - target: {fileID: 8445658255720852353, guid: f06b007e539b41d4a8e3bb28c42f2b2d, type: 3}
       propertyPath: m_Name
       value: AudioManager

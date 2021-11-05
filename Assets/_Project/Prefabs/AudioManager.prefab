@@ -270,4 +270,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   screamSource: {fileID: 5687122749251493336}
   screamClips:
+  - {fileID: 8300000, guid: 57efda089b6f72f498e28c980eb4263b, type: 3}
   - {fileID: 8300000, guid: 85b08cf3339bcaf4b95e25408b7bff01, type: 3}
