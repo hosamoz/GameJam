@@ -1,0 +1,708 @@
+fileFormatVersion: 2
+guid: 90b7503e0f090e7479cb6822253d2f99
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3371802041324526312
+    second: __yellow_duck_idle_standing_0
+  - first:
+      213: -4071742054837025488
+    second: __yellow_duck_idle_standing_1
+  - first:
+      213: 3764309533846697265
+    second: __yellow_duck_idle_standing_2
+  - first:
+      213: 4349493260757547265
+    second: __yellow_duck_idle_standing_3
+  - first:
+      213: -9218141852240684582
+    second: __yellow_duck_idle_standing_4
+  - first:
+      213: 7824963944857805792
+    second: __yellow_duck_idle_standing_5
+  - first:
+      213: -8762521009777412918
+    second: __yellow_duck_idle_standing_6
+  - first:
+      213: -5871369965044162069
+    second: __yellow_duck_idle_standing_7
+  - first:
+      213: -671256625512162746
+    second: __yellow_duck_idle_standing_8
+  - first:
+      213: 7825519816520795058
+    second: __yellow_duck_idle_standing_9
+  - first:
+      213: 7632395059055773712
+    second: __yellow_duck_idle_standing_10
+  - first:
+      213: 2414880834781578950
+    second: __yellow_duck_idle_standing_11
+  - first:
+      213: 9097627659604262714
+    second: __yellow_duck_idle_standing_12
+  - first:
+      213: -1525648147996128263
+    second: __yellow_duck_idle_standing_13
+  - first:
+      213: 5043417886116504960
+    second: __yellow_duck_idle_standing_14
+  - first:
+      213: -8959243046569648835
+    second: __yellow_duck_idle_standing_15
+  - first:
+      213: 8876165721082943310
+    second: __yellow_duck_idle_standing_16
+  - first:
+      213: -1620633158094390239
+    second: __yellow_duck_idle_standing_17
+  - first:
+      213: 2504357413405657637
+    second: __yellow_duck_idle_standing_18
+  - first:
+      213: -8828023609458321043
+    second: __yellow_duck_idle_standing_19
+  - first:
+      213: 365755806478186669
+    second: __yellow_duck_idle_standing_20
+  - first:
+      213: 601630241726462652
+    second: __yellow_duck_idle_standing_21
+  - first:
+      213: 5859132062530550940
+    second: __yellow_duck_idle_standing_22
+  - first:
+      213: 248273943859996069
+    second: __yellow_duck_idle_standing_23
+  - first:
+      213: -7059349684833380830
+    second: __yellow_duck_idle_standing_24
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 272
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: __yellow_duck_idle_standing_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2172
+        width: 583
+        height: 543
+      alignment: 9
+      pivot: {x: 0.6, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8152ae178e3f431d0800000000000000
+      internalID: -3371802041324526312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __yellow_duck_idle_standing_1
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 2172
+        width: 583
+        height: 543
+      alignment: 9
+      pivot: {x: 0.6, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0358b649c244e77c0800000000000000
+      internalID: -4071742054837025488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __yellow_duck_idle_standing_2
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 2172
+        width: 583
+        height: 543
+      alignment: 9
+      pivot: {x: 0.6, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1357c8da3938d3430800000000000000
+      internalID: 3764309533846697265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __yellow_duck_idle_standing_3
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 2172
+        width: 583
+        height: 543
+      alignment: 9
+      pivot: {x: 0.6, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 109b86873118c5c30800000000000000
+      internalID: 4349493260757547265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __yellow_duck_idle_standing_4
+      rect:
+        serializedVersion: 2
+        x: 2332
+        y: 2172
+        width: 583
+        height: 543
+      alignment: 9
+      pivot: {x: 0.6, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9580043d4921080800000000000000
+      internalID: -9218141852240684582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __yellow_duck_idle_standing_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1629
+        width: 583
+        height: 543
+      alignment: 9
+      pivot: {x: 0.6, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e32d79df3bd79c60800000000000000
+      internalID: 7824963944857805792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __yellow_duck_idle_standing_6
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 1629
+        width: 583
+        height: 543
+      alignment: 9
+      pivot: {x: 0.6, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac4f1534195456680800000000000000
+      internalID: -8762521009777412918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __yellow_duck_idle_standing_7
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 1629
+        width: 583
+        height: 543
+      alignment: 9
+      pivot: {x: 0.6, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be125a8ef14b48ea0800000000000000
+      internalID: -5871369965044162069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __yellow_duck_idle_standing_8
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 1629
+        width: 583
+        height: 543
+      alignment: 9
+      pivot: {x: 0.6, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a5833d7a73fa6f0800000000000000
+      internalID: -671256625512162746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __yellow_duck_idle_standing_9
+      rect:
+        serializedVersion: 2
+        x: 2332
+        y: 1629
+        width: 583
+        height: 543
+      alignment: 9
+      pivot: {x: 0.6, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3808ecfc4d99c60800000000000000
+      internalID: 7825519816520795058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __yellow_duck_idle_standing_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1086
+        width: 583
+        height: 543
+      alignment: 9
+      pivot: {x: 0.6, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01847783ed6bbe960800000000000000
+      internalID: 7632395059055773712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __yellow_duck_idle_standing_11
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 1086
+        width: 583
+        height: 543
+      alignment: 9
+      pivot: {x: 0.6, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c60e0c1351638120800000000000000
+      internalID: 2414880834781578950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __yellow_duck_idle_standing_12
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 1086
+        width: 583
+        height: 543
+      alignment: 9
+      pivot: {x: 0.6, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ffa75b724414e70800000000000000
+      internalID: 9097627659604262714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __yellow_duck_idle_standing_13
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 1086
+        width: 583
+        height: 543
+      alignment: 9
+      pivot: {x: 0.6, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb4576b71fc3dae0800000000000000
+      internalID: -1525648147996128263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __yellow_duck_idle_standing_14
+      rect:
+        serializedVersion: 2
+        x: 2332
+        y: 1086
+        width: 583
+        height: 543
+      alignment: 9
+      pivot: {x: 0.6, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08563d3a8d1ddf540800000000000000
+      internalID: 5043417886116504960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __yellow_duck_idle_standing_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 543
+        width: 583
+        height: 543
+      alignment: 9
+      pivot: {x: 0.6, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3dd3d0daef5aa380800000000000000
+      internalID: -8959243046569648835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __yellow_duck_idle_standing_16
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 543
+        width: 583
+        height: 543
+      alignment: 9
+      pivot: {x: 0.6, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e47d5a402b97e2b70800000000000000
+      internalID: 8876165721082943310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __yellow_duck_idle_standing_17
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 543
+        width: 583
+        height: 543
+      alignment: 9
+      pivot: {x: 0.6, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c709caaba5289e0800000000000000
+      internalID: -1620633158094390239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __yellow_duck_idle_standing_18
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 543
+        width: 583
+        height: 543
+      alignment: 9
+      pivot: {x: 0.6, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a09a08cc341c220800000000000000
+      internalID: 2504357413405657637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __yellow_duck_idle_standing_19
+      rect:
+        serializedVersion: 2
+        x: 2332
+        y: 543
+        width: 583
+        height: 543
+      alignment: 9
+      pivot: {x: 0.6, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d699971dc4f8c7580800000000000000
+      internalID: -8828023609458321043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __yellow_duck_idle_standing_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 583
+        height: 543
+      alignment: 9
+      pivot: {x: 0.6, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da83ba7d7fc631500800000000000000
+      internalID: 365755806478186669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __yellow_duck_idle_standing_21
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 0
+        width: 583
+        height: 543
+      alignment: 9
+      pivot: {x: 0.6, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbafc3c648b695800800000000000000
+      internalID: 601630241726462652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __yellow_duck_idle_standing_22
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 0
+        width: 583
+        height: 543
+      alignment: 9
+      pivot: {x: 0.6, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c3c3f5191df4150800000000000000
+      internalID: 5859132062530550940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __yellow_duck_idle_standing_23
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 0
+        width: 583
+        height: 543
+      alignment: 9
+      pivot: {x: 0.6, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5a2c626db027300800000000000000
+      internalID: 248273943859996069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __yellow_duck_idle_standing_24
+      rect:
+        serializedVersion: 2
+        x: 2332
+        y: 0
+        width: 583
+        height: 543
+      alignment: 9
+      pivot: {x: 0.6, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2269d3a1dd6280e90800000000000000
+      internalID: -7059349684833380830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

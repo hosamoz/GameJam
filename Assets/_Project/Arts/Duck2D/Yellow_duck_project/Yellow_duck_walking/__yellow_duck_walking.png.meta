@@ -1,0 +1,468 @@
+fileFormatVersion: 2
+guid: 29999712bd960c64f91a7e702e2b2bb7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1539903206542460620
+    second: __yellow_duck_walking_0
+  - first:
+      213: 4858992722656226538
+    second: __yellow_duck_walking_1
+  - first:
+      213: 7659878052057825565
+    second: __yellow_duck_walking_2
+  - first:
+      213: 3495728928736730628
+    second: __yellow_duck_walking_3
+  - first:
+      213: -4756064136408031949
+    second: __yellow_duck_walking_4
+  - first:
+      213: -1053381209459103256
+    second: __yellow_duck_walking_5
+  - first:
+      213: 6981682774213450735
+    second: __yellow_duck_walking_6
+  - first:
+      213: -7952453156490753654
+    second: __yellow_duck_walking_7
+  - first:
+      213: -2552996172776437886
+    second: __yellow_duck_walking_8
+  - first:
+      213: -4068693504546829796
+    second: __yellow_duck_walking_9
+  - first:
+      213: -8839295540952345517
+    second: __yellow_duck_walking_10
+  - first:
+      213: 8027267898876724400
+    second: __yellow_duck_walking_11
+  - first:
+      213: 7640016116269612563
+    second: __yellow_duck_walking_12
+  - first:
+      213: 9000422541653415982
+    second: __yellow_duck_walking_13
+  - first:
+      213: -753375415771478691
+    second: __yellow_duck_walking_14
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 272
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: __yellow_duck_walking_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1086
+        width: 583
+        height: 543
+      alignment: 9
+      pivot: {x: 0.6, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6c27ebec5de5510800000000000000
+      internalID: 1539903206542460620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __yellow_duck_walking_1
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 1086
+        width: 583
+        height: 543
+      alignment: 9
+      pivot: {x: 0.6, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aece120232c9e6340800000000000000
+      internalID: 4858992722656226538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __yellow_duck_walking_2
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 1086
+        width: 583
+        height: 543
+      alignment: 9
+      pivot: {x: 0.6, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11c7bb218a5d4a60800000000000000
+      internalID: 7659878052057825565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __yellow_duck_walking_3
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 1086
+        width: 583
+        height: 543
+      alignment: 9
+      pivot: {x: 0.6, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ed86480f2538030800000000000000
+      internalID: 3495728928736730628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __yellow_duck_walking_4
+      rect:
+        serializedVersion: 2
+        x: 2332
+        y: 1086
+        width: 583
+        height: 543
+      alignment: 9
+      pivot: {x: 0.6, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d9c6cddd01ffdb0800000000000000
+      internalID: -4756064136408031949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __yellow_duck_walking_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 543
+        width: 583
+        height: 543
+      alignment: 9
+      pivot: {x: 0.6, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e96e1dfe53a161f0800000000000000
+      internalID: -1053381209459103256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __yellow_duck_walking_6
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 543
+        width: 583
+        height: 543
+      alignment: 9
+      pivot: {x: 0.6, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: febd47b1e7be3e060800000000000000
+      internalID: 6981682774213450735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __yellow_duck_walking_7
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 543
+        width: 583
+        height: 543
+      alignment: 9
+      pivot: {x: 0.6, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a894f62fcf533a190800000000000000
+      internalID: -7952453156490753654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __yellow_duck_walking_8
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 543
+        width: 583
+        height: 543
+      alignment: 9
+      pivot: {x: 0.6, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2878ab8d18fe19cd0800000000000000
+      internalID: -2552996172776437886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __yellow_duck_walking_9
+      rect:
+        serializedVersion: 2
+        x: 2332
+        y: 543
+        width: 583
+        height: 543
+      alignment: 9
+      pivot: {x: 0.6, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a0c8180d81987c0800000000000000
+      internalID: -4068693504546829796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __yellow_duck_walking_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 583
+        height: 543
+      alignment: 9
+      pivot: {x: 0.6, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35457d0c983845580800000000000000
+      internalID: -8839295540952345517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __yellow_duck_walking_11
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 0
+        width: 583
+        height: 543
+      alignment: 9
+      pivot: {x: 0.6, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b4817daf95966f60800000000000000
+      internalID: 8027267898876724400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __yellow_duck_walking_12
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 0
+        width: 583
+        height: 543
+      alignment: 9
+      pivot: {x: 0.6, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e7280ed2ac60a60800000000000000
+      internalID: 7640016116269612563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __yellow_duck_walking_13
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 0
+        width: 583
+        height: 543
+      alignment: 9
+      pivot: {x: 0.6, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e289ba78d9ce7ec70800000000000000
+      internalID: 9000422541653415982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: __yellow_duck_walking_14
+      rect:
+        serializedVersion: 2
+        x: 2332
+        y: 0
+        width: 583
+        height: 543
+      alignment: 9
+      pivot: {x: 0.6, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55cd680d097b85f0800000000000000
+      internalID: -753375415771478691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
