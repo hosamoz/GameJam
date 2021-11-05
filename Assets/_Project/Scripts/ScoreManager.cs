@@ -1,8 +1,9 @@
 using UnityEngine;
 
-public class ScoreManager : SingletonBehaviour<ScoreManager>
+public class ScoreManager : SingletonBehaviour<ScoreManager>, IScoreManager
 {
     [SerializeField] private ScoreEvent OnScoreChanged;
+    [SerializeField] private GameObject UI;
     
     private int _currentDeaths;
     public int CurrentDeaths => _currentDeaths;
@@ -10,7 +11,8 @@ public class ScoreManager : SingletonBehaviour<ScoreManager>
     protected override void Awake()
     {
         base.Awake();
-        _currentDeaths = PlayerPrefs.GetInt("Deaths", 0);
+        PlayerPrefs.SetInt("Deaths", 0);
+        DontDestroyOnLoad(UI);
     }
 
     private void Start()
