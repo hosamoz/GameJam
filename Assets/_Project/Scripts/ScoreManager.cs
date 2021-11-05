@@ -17,7 +17,6 @@ public class ScoreManager : SingletonBehaviour<ScoreManager>, IScoreManager
         buttonUI = buttons[0];
 
         Reset();
-
         DontDestroyOnLoad(UI);
         DontDestroyOnLoad(buttons[0]);
     }
