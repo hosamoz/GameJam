@@ -113,6 +113,7 @@ public class MovementController : MonoBehaviour
                 _dead = true;
                 anim.SetBool("die", true);
                 OnKill?.Invoke();
+                AudioManager.instance.screamSFX();
             }      
         }
     }

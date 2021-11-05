@@ -9319,6 +9319,7 @@ GameObject:
   - component: {fileID: 1962445405}
   - component: {fileID: 1962445404}
   - component: {fileID: 1962445407}
+  - component: {fileID: 1962445408}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -9425,6 +9426,38 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1962445408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962445403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
 --- !u!1 &1982671124
 GameObject:
   m_ObjectHideFlags: 0
@@ -9616,3 +9649,88 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &8445658255110901426
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1088919872927511461, guid: f06b007e539b41d4a8e3bb28c42f2b2d, type: 3}
+      propertyPath: screamClips.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1088919872927511461, guid: f06b007e539b41d4a8e3bb28c42f2b2d, type: 3}
+      propertyPath: screamClips.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: f0c61283b187e95419ad27abfcf15dd4, type: 3}
+    - target: {fileID: 1088919872927511461, guid: f06b007e539b41d4a8e3bb28c42f2b2d, type: 3}
+      propertyPath: screamClips.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4376f6b8fcff11544abca6dfcfd60d99, type: 3}
+    - target: {fileID: 1088919872927511461, guid: f06b007e539b41d4a8e3bb28c42f2b2d, type: 3}
+      propertyPath: screamClips.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 85b08cf3339bcaf4b95e25408b7bff01, type: 3}
+    - target: {fileID: 1088919872927511461, guid: f06b007e539b41d4a8e3bb28c42f2b2d, type: 3}
+      propertyPath: screamClips.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 85b08cf3339bcaf4b95e25408b7bff01, type: 3}
+    - target: {fileID: 1088919872927511461, guid: f06b007e539b41d4a8e3bb28c42f2b2d, type: 3}
+      propertyPath: screamClips.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: 85b08cf3339bcaf4b95e25408b7bff01, type: 3}
+    - target: {fileID: 1088919872927511461, guid: f06b007e539b41d4a8e3bb28c42f2b2d, type: 3}
+      propertyPath: screamClips.Array.data[5]
+      value: 
+      objectReference: {fileID: 8300000, guid: 85b08cf3339bcaf4b95e25408b7bff01, type: 3}
+    - target: {fileID: 8445658255720852353, guid: f06b007e539b41d4a8e3bb28c42f2b2d, type: 3}
+      propertyPath: m_Name
+      value: AudioManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 8445658255720852358, guid: f06b007e539b41d4a8e3bb28c42f2b2d, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8445658255720852358, guid: f06b007e539b41d4a8e3bb28c42f2b2d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8445658255720852358, guid: f06b007e539b41d4a8e3bb28c42f2b2d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8445658255720852358, guid: f06b007e539b41d4a8e3bb28c42f2b2d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8445658255720852358, guid: f06b007e539b41d4a8e3bb28c42f2b2d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8445658255720852358, guid: f06b007e539b41d4a8e3bb28c42f2b2d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8445658255720852358, guid: f06b007e539b41d4a8e3bb28c42f2b2d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8445658255720852358, guid: f06b007e539b41d4a8e3bb28c42f2b2d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8445658255720852358, guid: f06b007e539b41d4a8e3bb28c42f2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8445658255720852358, guid: f06b007e539b41d4a8e3bb28c42f2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8445658255720852358, guid: f06b007e539b41d4a8e3bb28c42f2b2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f06b007e539b41d4a8e3bb28c42f2b2d, type: 3}
