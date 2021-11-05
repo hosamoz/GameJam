@@ -7,7 +7,7 @@ public class MovementController : MonoBehaviour
     [SerializeField] private float speed;
     [SerializeField] private GameObject model;
     [SerializeField] private Rigidbody2D body;
-    [SerializeField] private Raycaster raycaster;
+    [SerializeField] private List<Raycaster> raycasters;
     [SerializeField] private Animator anim;
 
     private bool _isHiding = false;
@@ -63,8 +63,14 @@ public class MovementController : MonoBehaviour
 
     private void IsGrounded()
     {
-        _grounded = raycaster.Cast();
-        anim.SetBool("isJump",!_grounded);
+        _grounded = false;
+        foreach (Raycaster raycaster in raycasters) {
+            _grounded = raycaster.Cast();
+            if (_grounded)
+                break;
+        }
+        Debug.Log(_grounded);
+        anim.SetBool("isJump", !_grounded);
     }
     private void Move()
     {
