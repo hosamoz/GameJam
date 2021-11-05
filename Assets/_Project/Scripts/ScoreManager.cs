@@ -8,22 +8,28 @@ public class ScoreManager : SingletonBehaviour<ScoreManager>, IScoreManager
     
     private int _currentDeaths;
     public int CurrentDeaths => _currentDeaths;
+    private GameObject buttonUI;
 
     protected override void Awake()
     {
         base.Awake();
-        GameObject[] uis = GameObject.FindGameObjectsWithTag("Player UI");
-        if (uis.Length > 1) {
-            Destroy(uis[1]);
-            
-        }
+        GameObject[] buttons = GameObject.FindGameObjectsWithTag("Button");
+        buttonUI = buttons[0];
 
         Reset();
 
-        PlayerPrefs.SetInt("Deaths", 0);
         DontDestroyOnLoad(UI);
+        DontDestroyOnLoad(buttons[0]);
     }
 
+    public void Appear() {
+        buttonUI.SetActive(true);
+        Reset();
+    }
+
+    public void Disapeare() {
+        buttonUI.SetActive(false);
+    }
     private void Start()
     {
         OnScoreChanged?.Invoke(_currentDeaths);
