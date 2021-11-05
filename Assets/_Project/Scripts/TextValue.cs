@@ -9,4 +9,5 @@ public class TextValue : MonoBehaviour
     {
         text.text = intValue.ToString();
     }
+    
 }
