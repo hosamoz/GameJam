@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class ScoreManager : SingletonBehaviour<ScoreManager>, IScoreManager
@@ -11,6 +12,14 @@ public class ScoreManager : SingletonBehaviour<ScoreManager>, IScoreManager
     protected override void Awake()
     {
         base.Awake();
+        GameObject[] uis = GameObject.FindGameObjectsWithTag("Player UI");
+        if (uis.Length > 1) {
+            Destroy(uis[1]);
+            
+        }
+
+        Reset();
+
         PlayerPrefs.SetInt("Deaths", 0);
         DontDestroyOnLoad(UI);
     }
@@ -24,6 +33,7 @@ public class ScoreManager : SingletonBehaviour<ScoreManager>, IScoreManager
     {
         _currentDeaths = 0;
         OnScoreChanged?.Invoke(_currentDeaths);
+        PlayerPrefs.SetInt("Deaths", 0);
     }
 
     public void AddDeathCount(int value)
