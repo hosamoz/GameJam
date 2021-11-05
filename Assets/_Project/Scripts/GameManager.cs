@@ -3,6 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : SingletonBehaviour<GameManager>, IGameManager
 {
+    [SerializeField] private ScoreManager scoreManager;
     public void Quit()
     {
         Application.Quit();
@@ -11,13 +12,24 @@ public class GameManager : SingletonBehaviour<GameManager>, IGameManager
 
     public void NextScene(string nextScene)
     {
-        SceneManager.LoadScene(nextScene);
-        PlayerPrefs.SetString("Scene", nextScene);
+        if (nextScene == "Easy Level")
+        {
+            scoreManager.Disapeare();
+        }
+         SceneManager.LoadScene(nextScene);
+         PlayerPrefs.SetString("Scene", nextScene);
     }
 
     public void NextUI(string nextScene)
     {
-        SceneManager.LoadScene(nextScene);
+        if (nextScene == "Main UI")
+        {
+            scoreManager.Appear();
+        }
+        else
+        {
+            SceneManager.LoadScene(nextScene);
+        }
     }
 
     public void ReloadScene()
