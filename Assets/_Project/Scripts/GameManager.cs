@@ -4,6 +4,8 @@ using UnityEngine.SceneManagement;
 public class GameManager : SingletonBehaviour<GameManager>, IGameManager
 {
     [SerializeField] private ScoreManager scoreManager;
+    [SerializeField] private TimerManager timerManager;
+    
     public void Quit()
     {
         Application.Quit();
@@ -14,6 +16,7 @@ public class GameManager : SingletonBehaviour<GameManager>, IGameManager
     {
         if (nextScene == "Tutorial")
         {
+            timerManager.SetTimerIsRunning();
             scoreManager.Disapeare();
         }
          SceneManager.LoadScene(nextScene);

@@ -4530,6 +4530,14 @@ PrefabInstance:
       propertyPath: OnKill.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 239156815}
+    - target: {fileID: 7991411415614990283, guid: 03a2eb9af0d33964aab749ee247f1f98, type: 3}
+      propertyPath: OnTimeChange.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991411415614990283, guid: 03a2eb9af0d33964aab749ee247f1f98, type: 3}
+      propertyPath: OnTimeChange.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetTimer
+      objectReference: {fileID: 0}
     - target: {fileID: 8929004834452235098, guid: 03a2eb9af0d33964aab749ee247f1f98, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
