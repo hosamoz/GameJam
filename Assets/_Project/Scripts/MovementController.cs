@@ -69,7 +69,6 @@ public class MovementController : MonoBehaviour
             if (_grounded)
                 break;
         }
-        Debug.Log(_grounded);
         anim.SetBool("isJump", !_grounded);
     }
     private void Move()
