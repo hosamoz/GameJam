@@ -9,6 +9,7 @@ public class MovementController : MonoBehaviour
     [SerializeField] private Rigidbody2D body;
     [SerializeField] private List<Raycaster> raycasters;
     [SerializeField] private Animator anim;
+    [SerializeField] private DeathEvent OnKill;
 
     private bool _isHiding = false;
     private bool _canHide;
@@ -111,9 +112,9 @@ public class MovementController : MonoBehaviour
             {
                 _dead = true;
                 anim.SetBool("die", true);
+                OnKill?.Invoke();
             }      
         }
-        
     }
         
 }

@@ -3,43 +3,39 @@ using UnityEngine;
 
 public class ScoreManager : SingletonBehaviour<ScoreManager>
 {
-    [SerializeField] private ScoreEvent OnScore;
-    [SerializeField] private ScoreEvent OnScoreChanged;
-    [SerializeField] private ScoreEvent OnHiScoreChanged;
+    [SerializeField] private DeathEvent OnDeath;
+    [SerializeField] private DeathEvent OnScoreChanged;
     
-    private int _currentScore;
+    private int _currentDeaths;
     private int _hiScore;
-    public int currentScore => _currentScore;
+    public int CurrentDeaths => _currentDeaths;
     public int hiScore => _hiScore;
 
     protected override void Awake()
     {
         base.Awake();
         _hiScore = PlayerPrefs.GetInt("HiScore", 0);
+        _currentDeaths = PlayerPrefs.GetInt("Deaths", 0);
     }
 
     private void Start()
     {
-        OnScoreChanged?.Invoke(_currentScore);
-        OnHiScoreChanged?.Invoke(_hiScore);
+        OnScoreChanged?.Invoke();
     }
 
     public void Reset()
     {
-        _currentScore = 0;
-        OnScoreChanged?.Invoke(_currentScore);
+        _currentDeaths = 0;
+        OnScoreChanged?.Invoke();
     }
 
-    public void GainScore(int value)
+    public void AddDeathCount(int value)
     {
-        _currentScore += value;
-        OnScore?.Invoke(value);
-        OnScoreChanged?.Invoke(_currentScore);
-        if (_currentScore > _hiScore)
-        {
-            _hiScore = _currentScore;
-            OnHiScoreChanged?.Invoke(_hiScore);
-            PlayerPrefs.SetInt("HiScore", _hiScore);
-        }
+        _currentDeaths ++;
+        PlayerPrefs.SetInt("Deaths", _currentDeaths);
+        
+        OnDeath?.Invoke();
+        OnScoreChanged?.Invoke();
+       
     }
 }
