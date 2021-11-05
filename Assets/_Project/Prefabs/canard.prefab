@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 194221310434514696}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.75, y: 0.75, z: 1}
   m_Children: []
   m_Father: {fileID: 194221310618889339}
   m_RootOrder: 0
@@ -72,7 +72,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1539903206542460620, guid: 29999712bd960c64f91a7e702e2b2bb7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -141,7 +141,7 @@ GameObject:
   - component: {fileID: 194221310618889332}
   - component: {fileID: 3836903480898447752}
   - component: {fileID: 194221310618889334}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: canard
   m_TagString: Untagged
   m_Icon: {fileID: 0}

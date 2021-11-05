@@ -12,7 +12,7 @@ public class GameManager : SingletonBehaviour<GameManager>, IGameManager
 
     public void NextScene(string nextScene)
     {
-        if (nextScene == "Easy Level")
+        if (nextScene == "Tutorial")
         {
             scoreManager.Disapeare();
         }
