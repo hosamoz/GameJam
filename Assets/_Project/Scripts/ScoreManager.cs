@@ -31,7 +31,7 @@ public class ScoreManager : SingletonBehaviour<ScoreManager>
 
     public void AddDeathCount(int value)
     {
-        _currentDeaths ++;
+        _currentDeaths++;
         PlayerPrefs.SetInt("Deaths", _currentDeaths);
         
         OnDeath?.Invoke();
