@@ -26,6 +26,6 @@ public class AudioManager : MonoBehaviour
     {
         AudioClip clip = screamClips[Random.Range(0, screamClips.Count)];
 
-        screamSource.PlayOneShot(clip, 0.05f);
+        screamSource.PlayOneShot(clip, 0.50f);
     }
 }
