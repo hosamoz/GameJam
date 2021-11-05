@@ -197,33 +197,25 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1088919872927511461, guid: f06b007e539b41d4a8e3bb28c42f2b2d, type: 3}
+      propertyPath: messire
+      value: 
+      objectReference: {fileID: 8300000, guid: 2f40bbfd69180d848ab721401c73c536, type: 3}
+    - target: {fileID: 1088919872927511461, guid: f06b007e539b41d4a8e3bb28c42f2b2d, type: 3}
       propertyPath: screamClips.Array.size
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
-    - target: {fileID: 1088919872927511461, guid: f06b007e539b41d4a8e3bb28c42f2b2d, type: 3}
-      propertyPath: screamClips.Array.data[0]
-      value: 
-      objectReference: {fileID: 8300000, guid: f0c61283b187e95419ad27abfcf15dd4, type: 3}
-    - target: {fileID: 1088919872927511461, guid: f06b007e539b41d4a8e3bb28c42f2b2d, type: 3}
-      propertyPath: screamClips.Array.data[1]
-      value: 
-      objectReference: {fileID: 8300000, guid: 4376f6b8fcff11544abca6dfcfd60d99, type: 3}
     - target: {fileID: 1088919872927511461, guid: f06b007e539b41d4a8e3bb28c42f2b2d, type: 3}
       propertyPath: screamClips.Array.data[2]
       value: 
-      objectReference: {fileID: 8300000, guid: 85b08cf3339bcaf4b95e25408b7bff01, type: 3}
+      objectReference: {fileID: 8300000, guid: 8aaa9ab90aaf87a47a5b906e7f249c42, type: 3}
     - target: {fileID: 1088919872927511461, guid: f06b007e539b41d4a8e3bb28c42f2b2d, type: 3}
       propertyPath: screamClips.Array.data[3]
       value: 
-      objectReference: {fileID: 8300000, guid: 85b08cf3339bcaf4b95e25408b7bff01, type: 3}
+      objectReference: {fileID: 8300000, guid: 961509cbadddfed41bce111df940c75a, type: 3}
     - target: {fileID: 1088919872927511461, guid: f06b007e539b41d4a8e3bb28c42f2b2d, type: 3}
       propertyPath: screamClips.Array.data[4]
       value: 
-      objectReference: {fileID: 8300000, guid: 85b08cf3339bcaf4b95e25408b7bff01, type: 3}
-    - target: {fileID: 1088919872927511461, guid: f06b007e539b41d4a8e3bb28c42f2b2d, type: 3}
-      propertyPath: screamClips.Array.data[5]
-      value: 
-      objectReference: {fileID: 8300000, guid: 85b08cf3339bcaf4b95e25408b7bff01, type: 3}
+      objectReference: {fileID: 8300000, guid: 34a6e21c62c6d044eac4c5e712b96081, type: 3}
     - target: {fileID: 8445658255720852353, guid: f06b007e539b41d4a8e3bb28c42f2b2d, type: 3}
       propertyPath: m_Name
       value: AudioManager
@@ -670,7 +662,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5866597723883893378, guid: ab9068c8f3c5b2d418e490e1da6fe58b, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 5866597723883893379, guid: ab9068c8f3c5b2d418e490e1da6fe58b, type: 3}
       propertyPath: m_Pivot.x
@@ -759,6 +751,10 @@ PrefabInstance:
     - target: {fileID: 5866597723883893383, guid: ab9068c8f3c5b2d418e490e1da6fe58b, type: 3}
       propertyPath: m_Name
       value: Main UI
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866597723883893383, guid: ab9068c8f3c5b2d418e490e1da6fe58b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5866597723883893383, guid: ab9068c8f3c5b2d418e490e1da6fe58b, type: 3}
       propertyPath: m_TagString

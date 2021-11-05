@@ -7,13 +7,14 @@ public class AudioManager : MonoBehaviour
 
     [SerializeField] AudioSource screamSource;
     [SerializeField] List<AudioClip> screamClips = new List<AudioClip>();
+    [SerializeField] AudioClip messire;
 
     void Awake()
     {
+        screamSource.PlayOneShot(messire, 1f);
         if (instance == null)
         {
             instance = this;
-
             DontDestroyOnLoad(gameObject);
         }
         else

@@ -15,9 +15,18 @@ public class GameManager : SingletonBehaviour<GameManager>, IGameManager
         if (nextScene == "Tutorial")
         {
             scoreManager.Disapeare();
+            SceneManager.LoadScene(nextScene);
+            PlayerPrefs.SetString("Scene", nextScene);
         }
-         SceneManager.LoadScene(nextScene);
-         PlayerPrefs.SetString("Scene", nextScene);
+        else if (nextScene == "Main UI")
+        {
+            scoreManager.Appear();
+        }
+        else {
+            SceneManager.LoadScene(nextScene);
+            PlayerPrefs.SetString("Scene", nextScene);
+        }
+        
     }
 
     public void NextUI(string nextScene)
