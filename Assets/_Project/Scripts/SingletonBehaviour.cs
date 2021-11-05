@@ -11,7 +11,8 @@ public abstract class SingletonBehaviour<T> : MonoBehaviour where T:SingletonBeh
         if (!_instance)
         {
             _instance = (T)this;
-            DontDestroyOnLoad(this);
+            if(isPersistent)
+                DontDestroyOnLoad(this);
         }
     }
 }
