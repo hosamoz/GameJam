@@ -54,6 +54,7 @@ public class TimerManager : SingletonBehaviour<TimerManager>,ITimerManager
     }
     public void SetTimerIsRunning()
     {
+        _remainingTimeInSec = _timeLimit;
         timerIsRunning = true;
     }
 
