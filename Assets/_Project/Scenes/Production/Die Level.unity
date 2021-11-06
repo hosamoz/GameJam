@@ -1083,7 +1083,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 2144619240}
-  nextScene: Main UI
+  nextScene: Winning Screen
 --- !u!61 &979682394
 BoxCollider2D:
   m_ObjectHideFlags: 0

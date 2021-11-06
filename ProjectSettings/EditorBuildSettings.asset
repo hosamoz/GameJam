@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Project/Scenes/Production/Die Level.unity
     guid: 63bd02929da3ee44b9e616df3e173b5f
+  - enabled: 1
+    path: Assets/_Project/Scenes/Production/Winning Screen.unity
+    guid: ed760820008b9074d9e39d3eea0faa38
   m_configObjects: {}
