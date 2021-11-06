@@ -4408,7 +4408,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 667203229}
-  nextScene: Main UI
+  nextScene: Die Level
 --- !u!61 &1202496882
 BoxCollider2D:
   m_ObjectHideFlags: 0
