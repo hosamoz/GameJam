@@ -31,7 +31,7 @@ public class AudioManager : MonoBehaviour
         screamSource.PlayOneShot(clip, 0.50f);
     }
 
-    public void ssheeshSFX()
+    public void sheeshSFX()
     {
         screamSource.PlayOneShot(sheeesh, 10f);
     }

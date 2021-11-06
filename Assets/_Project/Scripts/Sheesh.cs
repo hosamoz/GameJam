@@ -6,6 +6,6 @@ public class Sheesh : MonoBehaviour
 {
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        
+        AudioManager.instance.sheeshSFX();
     }
 }
